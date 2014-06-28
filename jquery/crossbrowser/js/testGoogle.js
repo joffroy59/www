@@ -17,8 +17,6 @@ $( document ).ready(function() {
 	
 	//TODO use sablier onload ajax
 	
-	$('#containerPureJquery').html('code goes here');
-	 
 	var $loading = $('#containerPureJquery').show();
 	$loading.html('<img src="img/spinner.gif" alt="Wait"  width="30px"/>');
 	$.ajax({
